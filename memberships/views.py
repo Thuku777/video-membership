@@ -10,6 +10,7 @@ from django.urls import reverse
 from .models import Membership, UserMembership, Subscription
 
 import stripe
+stripe.api_key = "sk_test_TWyikTyY7DqfOucUJuAncHmo00QSCUuFQr"
 
 def get_user_membership(request):
     user_membership_qs = UserMembership.objects.filter(user=request.user)

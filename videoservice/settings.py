@@ -88,8 +88,8 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(VENV_PATH, 'media_root')
 
 if DEBUG:
-    STRIPE_PUBLISHABLE_KEY = ''
-    STRIPE_SECRET_KEY = ''
+    STRIPE_PUBLISHABLE_KEY = 'pk_test_kM9vZNRv9pn5ZqmJO9yl9Shd00lvFWCoUl'
+    STRIPE_SECRET_KEY = 'sk_test_TWyikTyY7DqfOucUJuAncHmo00QSCUuFQr'
 
 else:
     # live keys
